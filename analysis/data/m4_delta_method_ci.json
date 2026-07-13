@@ -1,0 +1,14 @@
+{
+  "method": "Delta method (2PL Hessian approximation)",
+  "date": "2026-07-13",
+  "n_pairs": 78,
+  "n_covers_zero": 2,
+  "ci_width_median_pp": 0.2,
+  "results": {
+    "CHARLS__ELSA": {
+      "e3_point": -1.53,
+      "se": 0.08,
+      "ci_lo": -1.68,
+      "ci_hi": -1.37,
+      "ci_width": 0.31,
+      "covers_zero": 

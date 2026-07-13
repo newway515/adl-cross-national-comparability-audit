@@ -22,7 +22,25 @@
       "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_decompose.py --smoke)",
       "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" run_m3_pairwise.py --pops CHARLS,ELSA,HRS)",
       "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" run_m3_pairwise.py)",
-      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" finalize_V9_deliverables.py)"
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" finalize_V9_deliverables.py)",
+      "Bash(git commit -m 'V9.1 M1-M3 pipeline: CHARLS smoke, full 13-population 2PL, 78-pair DIF decomposition complete *)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" backfill_psu_strata.py --dry-run)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" backfill_psu_strata.py)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance.py --R 5 --pops CHARLS,ELSA,HRS)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 10 --pops CHARLS,ELSA,HRS)",
+      "Bash(rm -f \"D:\\\\ccproj\\\\ccEvaluation\\\\cccharls07\\\\analysis\\\\data\\\\m4_bootstrap_2pl_checkpoint.pkl\")",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 5 --pops CHARLS)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 3 --pops CHARLS,ELSA,HRS)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 5 --pops CHARLS,ELSA,HRS)",
+      "Bash(rm -f \"D:\\\\ccproj\\\\ccEvaluation\\\\cccharls07\\\\analysis\\\\data\\\\m4_bootstrap_2pl_checkpoint.pkl\" \"D:\\\\ccproj\\\\ccEvaluation\\\\cccharls07\\\\analysis\\\\data\\\\m4_delta_results.json\")",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 200)",
+      "Bash(tasklist)",
+      "Bash(taskkill /F /PID 30040)",
+      "Bash(pskill python *)",
+      "Bash(pskill pythonw *)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 50)",
+      "Bash(taskkill /F /IM python.exe)",
+      "Bash(git commit -m 'M4 Delta-method variance: analytical Hessian CI for all 78 pairs *)"
     ]
   }
 }
