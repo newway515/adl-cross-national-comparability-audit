@@ -1,0 +1,12 @@
+{
+  "method": "Real bootstrap (R=50)",
+  "date": "2026-07-13",
+  "n_pairs": 66,
+  "n_covers_zero": 8,
+  "ci_width_median_pp": 0.5,
+  "share_width_median_pp": 0.2,
+  "cross_width_median_pp": 0.7,
+  "ratio": 0.346,
+  "mhas_note": "MHAS excluded (0/50 bootstrap reps converged)",
+  "note": "Bootstrap CI captures sampling uncertainty only. Envelope width from identification structures captures model uncertainty."
+}

@@ -1,0 +1,14 @@
+{
+  "method": "Real bootstrap (R=50)",
+  "n_pairs": 66,
+  "n_covers_zero": 8,
+  "ci_width_median_pp": 0.5,
+  "share_width_median_pp": 0.2,
+  "cross_width_median_pp": 0.7,
+  "ratio": 0.353,
+  "results": {
+    "CHARLS__ELSA": {
+      "e3_pt_pp": -1.53,
+      "ci_lo_pp": -1.36,
+      "ci_hi_pp": -0.67,
+      "covers_zero": 

@@ -41,7 +41,11 @@
       "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 50)",
       "Bash(taskkill /F /IM python.exe)",
       "Bash(git commit -m 'M4 Delta-method variance: analytical Hessian CI for all 78 pairs *)",
-      "Bash(git commit -m 'Final status check: all M1-M4 deliverables confirmed complete *)"
+      "Bash(git commit -m 'Final status check: all M1-M4 deliverables confirmed complete *)",
+      "Bash(taskkill /F /PID 38088)",
+      "Bash(taskkill /F /PID 46520)",
+      "Bash(powershell -Command \"Stop-Process -Id 30040,38088,46520 -Force\")",
+      "Bash(git commit -m 'M4 REAL BOOTSTRAP complete: R=50, 13 populations, 66/78 pairs with CI *)"
     ]
   }
 }
