@@ -40,7 +40,8 @@
       "Bash(pskill pythonw *)",
       "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_variance_delta.py --R 50)",
       "Bash(taskkill /F /IM python.exe)",
-      "Bash(git commit -m 'M4 Delta-method variance: analytical Hessian CI for all 78 pairs *)"
+      "Bash(git commit -m 'M4 Delta-method variance: analytical Hessian CI for all 78 pairs *)",
+      "Bash(git commit -m 'Final status check: all M1-M4 deliverables confirmed complete *)"
     ]
   }
 }
