@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m 'Initial release: frozen study protocol V9.1 for cross-national ADL comparability audit *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git ls-remote *)",
+      "mcp__tavily-search__tavily_search",
+      "WebSearch",
+      "WebFetch(domain:pmc.ncbi.nlm.nih.gov)",
+      "Read(//d/cursorproj/**)",
+      "Read(//d/clinicdatabase/SQLitedatabase/**)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" --version)",
+      "Bash(ls \"D:\\\\cursorproj\" 2>/dev/null)",
+      "Bash('D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe' -c ' *)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" smoke_charls_2pl.py)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_operationalizations.py)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" adl_decompose.py --smoke)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" run_m3_pairwise.py --pops CHARLS,ELSA,HRS)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" run_m3_pairwise.py)",
+      "Bash(\"D:\\\\miniconda\\\\envs\\\\myenv\\\\python.exe\" finalize_V9_deliverables.py)"
+    ]
+  }
+}
