@@ -45,7 +45,8 @@
       "Bash(taskkill /F /PID 38088)",
       "Bash(taskkill /F /PID 46520)",
       "Bash(powershell -Command \"Stop-Process -Id 30040,38088,46520 -Force\")",
-      "Bash(git commit -m 'M4 REAL BOOTSTRAP complete: R=50, 13 populations, 66/78 pairs with CI *)"
+      "Bash(git commit -m 'M4 REAL BOOTSTRAP complete: R=50, 13 populations, 66/78 pairs with CI *)",
+      "Bash(git commit -m 'Final M4 verification: all outputs confirmed *)"
     ]
   }
 }
